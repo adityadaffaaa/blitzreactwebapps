@@ -1,13 +1,13 @@
-import { React, useState } from "react";
+// import { React, useState } from "react";
 
 const Faq = () => {
-  const [clicked, setClick] = useState(false);
-  const toggle = (index) => {
-    if (clicked === index) {
-      return setClick(null);
-    }
-    setClick(index);
-  };
+  // const [clicked, setClick] = useState(false);
+  // const toggle = (index) => {
+  //   if (clicked === index) {
+  //     return setClick(null);
+  //   }
+  //   setClick(index);
+  // };
   return KontenFaq.map((konten, index) => {
     // var isi = konten.isi;
     return (
