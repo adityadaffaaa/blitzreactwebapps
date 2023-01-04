@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-  @apply h-[2000px] custom-scrollbar font-lora;
+  @apply h-[4000px] custom-scrollbar font-lora;
 }
 
 .btn-primary {
@@ -44,13 +44,9 @@ body {
 }
 
 .hero-carousel .swiper-pagination-bullet {
-  @apply bg-primary h-3 w-3;
-}
-
-.hero-res .swiper-pagination-bullet {
   @apply bg-secondary h-1 w-4 rounded-lg lg:rounded-full lg:h-3 lg:w-3 transition-default;
 }
-.hero-res .swiper-pagination-bullet-active {
+.hero-carousel .swiper-pagination-bullet-active {
   @apply bg-primary h-1 w-4 rounded-lg lg:rounded-full lg:h-3 lg:w-3 transition-default;
 }
 .ulasan .swiper-pagination-bullet {
