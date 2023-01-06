@@ -1,11 +1,4 @@
-import HpLogo from "../assets/img/hp-logo.png";
-import BniLogo from "../assets/img/bni-logo.png";
-import BcaLogo from "../assets/img/bca-logo.png";
-import LgLogo from "../assets/img/lg-logo.png";
-import KaiLogo from "../assets/img/kai-logo.png";
-import nestleLogo from "../assets/img/nestle-logo.png";
-import MoencakLogo from "../assets/img/moencak-logo.png";
-import AdidasLogo from "../assets/img/adidas-logo.png";
+import { ListBrand } from "../static/KlienKamiContents";
 const KlienKami = () => {
   return (
     <section className="mt-10 lg:mt-[100px] mx-6 flex flex-col items-center gap-3 md:gap-6">
@@ -45,5 +38,3 @@ const Brand = (props) => {
     </a>
   );
 };
-
-const ListBrand = [HpLogo, BniLogo, BcaLogo, LgLogo, KaiLogo, nestleLogo, MoencakLogo, AdidasLogo];
