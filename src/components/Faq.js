@@ -23,6 +23,13 @@ const Faq = () => {
         return ["content-accordion h-0 px-6 w-full bg-secondary text-text2 rounded-[8px] text-paragraph2res md:px-10 md:text-paragraph2 overflow-hidden transition-all ease-in-out duration-200"];
       }
     };
+    var List = () => {
+      if (index === 3) {
+        return ["list-none"];
+      } else {
+        return ["list-disc"];
+      }
+    };
     // var isi = konten.isi;
     return (
       <div key={index} onClick={() => toggle(index)} className="flex flex-col accordion">
@@ -36,7 +43,7 @@ const Faq = () => {
           </span>
         </div>
         <div className={KontenAccordion()}>
-          <ul className="list-disc">
+          <ul className={List()}>
             {konten.isi.map((list, i) => {
               return <li key={i}>{list}</li>;
             })}
